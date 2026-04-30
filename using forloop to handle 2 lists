@@ -1,4 +1,7 @@
-a=[chr(i)for i in range (65,123)]
-print(a)
-a=[chr(i)for i in range (65,91)if chr(i)not in "AEIOU"]
-print(a)
+names=["Ram","raj","Rose","jack","Pavi"]
+marks=[45,33,90,27,78]
+pos=1
+for i in range(5):
+  if marks[i]>40:
+    print("{}.{} has scored {}%".format(pos,names[i],marks[i]))
+    pos=pos+1
