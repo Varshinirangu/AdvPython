@@ -1,0 +1,8 @@
+import qrcode 
+qr= qrcode.QRCode()
+a="Sai Siddharth Kannekanti & Varshini Rangu"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill_color="black",back_color="white")
+res.save("Varsh.png")
+print("Created successfully")
