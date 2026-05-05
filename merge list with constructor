@@ -3,7 +3,7 @@ class circle:
     x=int(input("enter radius: "))
     self.r=x
   def dispaly(self):
-    print("radius is ",3,14*self.r**2)
+    print("radius is ",3.14*self.r**2)
 a=int(input("enter num of circle: "))
 l=[]
 for i in range(a):
