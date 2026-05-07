@@ -8,3 +8,9 @@ res=tabulate(data,headers=title,tablefmt="fancy_grid")
 with(varshini.txt,'w') as file:
   file.write(res)
 print("OK")
+a=open("varshinii.txt","r")
+c=a.readlines()
+while c:
+  print(c)
+  c=a.readlines()
+a.close()
