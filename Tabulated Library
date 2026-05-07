@@ -5,4 +5,6 @@ data=[["sruthi",21,"CSE"],
  ["PRAHARIKA",20,"CSD"],
  ["VARSHINI",20,"CSM"]]
 res=tabulate(data,headers=title,tablefmt="fancy_grid")
-print(res)
+with(varshini.txt,'w') as file:
+  file.write(res)
+print("OK")
